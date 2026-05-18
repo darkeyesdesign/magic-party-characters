@@ -7,13 +7,7 @@ import styles from '@/styles/Home.module.css'
 import HeaderPart from './components/_header-part'
 
 /*MY COMPONENTS*/
-import BriefBio from './components/_brief-bio'
-import BioImages from './components/_bio-images'
-import Clips from './components/_clips'
-import Headshots from './components/_headshots'
 import Navigation from './components/_navigation'
-import ReelComedic from './components/_reel-comedic'
-import ReelDramatic from './components/_reel-dramatic'
 import SocialIcons from './components/_social-icons'
 
 {/*const inter = Inter({ subsets: ['latin'] })
@@ -32,7 +26,7 @@ export default function Home() {
 
 {/*	PAGE TITLE */}
 		<div className={styles.title}>
-			<h1>William Hurst</h1>
+			<h1>Magic Party Characters</h1>
 		</div>
 		<hr />
 
@@ -44,33 +38,6 @@ export default function Home() {
 {/* SOCIALS */}
 		<div className={styles.socials_container}>
 			<SocialIcons />
-		</div>
-
-{/* HEADSHOTS */}
-		<div className={styles.headshots}>
-			<Headshots />
-		</div>
-
-{/* FLAVOR TEXT FOR REELS */}
-		<div className={styles.heading_text_container}>
-			<h2>Actor Reels</h2>
-		</div>
-
-{/* REELS */}
-		<div className={styles.reels_container}>
-			<div className={styles.reels_side_reels}>
-				<ReelComedic />
-				<ReelDramatic />
-			</div>
-		</div>
-
-{/* ACTOR TYPE */}
-		<div className={styles.heading_text_container}>
-			<h2>Character Type</h2>
-		</div>
-		<div className={styles.brief_bio_container}>
-			<BriefBio />
-			<BioImages />
 		</div>
 
 {/* FOOTER LINKS */}

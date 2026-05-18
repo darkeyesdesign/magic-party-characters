@@ -20,7 +20,7 @@ export default function ContactPage() {
 			{/*	PAGE TITLE */}
 				<div className={styles.title}>
 					<h1>Contact</h1>
-					<h4>Ticky</h4>
+          <h4>Magic Party Characters</h4>
 				</div>
 				<hr />
 

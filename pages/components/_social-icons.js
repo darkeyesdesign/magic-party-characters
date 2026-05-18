@@ -12,17 +12,17 @@ export default function SocialIcons() {
 				/>
 			</a>
 */}
-			<a href="https://www.youtube.com/@williamhurstactor">
+			<a href="#">
 				<img src="/assets/socials/youtube-logo.png"
 				className={[styles.social_logos, styles.youtube].join(" ")}
 				/>
 			</a>
-			<a href="https://www.imdb.com/name/nm12293482/">
+			<a href="#">
 				<img src="/assets/socials/imdb-logo.png"
 				className={[styles.social_logos, styles.imdb].join(" ")}
 				/>
 			</a>
-			<a href="https://instagram.com/williamhurstactor">
+			<a href="#">
 				<img src="/assets/socials/instagram.png"
 				className={[styles.social_logos, styles.ig].join(" ")}
 				/>

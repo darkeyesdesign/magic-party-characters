@@ -9,7 +9,8 @@ export default function ContactForm() {
 	<div className="col m2"></div>
 		<div className="col s12 m8">
 			<form
-  			action="https://formspree.io/f/xvoearob"
+/* FILL OUT THE formspree LINK HERE*/
+  			action="#"
   			method="POST"
 			>
 
@@ -34,7 +35,7 @@ export default function ContactForm() {
 				</div>  			
 				
 				<div className="input-field">
-					<textarea id="message" placeholder="Hey William!, you're perfect for the part!"
+					<textarea id="message" placeholder="We want Magic Party Characters here!"
 						className={styles.text_area}
 						maxLength="500"
 						name="message"

@@ -9,24 +9,11 @@ export default function Navigation() {
 	  			<li>
 						<a href="/">HOME</a>
 						</li>
-	  			<li>
-						<Link href="/_reels-page">REELS</Link>
-						</li>
-					<li>
-						<Link href="/_resume-page">RESUME</Link>
-						</li>
-					<li>
+          <li>
 	  				<a href="/_contact-page">CONTACT</a>
 						</li>
 					<li>					
 						<a href="/_about-page">ABOUT</a>
-						</li>
-{/*					<li>
-						<a href="/_scenes-page">SCENES</a>
-						</li>
-*/}
-					<li>
-						<a href="/_films-page">FILMS</a>
 						</li>
 				</ul>
 			</div>
