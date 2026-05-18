@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '@/styles/splash.css'
 {/*import { Advent_Pro, Inter, Lexend } from 'next/font/google'*/}
 
 {/*const adventPro = Advent_Pro({
