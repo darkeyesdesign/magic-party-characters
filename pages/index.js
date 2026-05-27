@@ -1,4 +1,4 @@
-import link from 'next/link'
+import Link from 'next/link'
 
 import Head from 'next/head'
 import { Advent_Pro, Inter, Lexend } from 'next/font/google'
@@ -191,13 +191,13 @@ export default function Home() {
                   <span>@tbc</span>
                 </div>
               </a>
-              <a href="mailto:tbc" className="contact-item">
+              <Link href="/_contact-page" className="contact-item">
                 <span className="item-icon">✉️</span>
                 <div>
                   <label>Email</label>
-                  <span>tbc</span>
+                  <span>Contact Form</span>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

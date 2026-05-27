@@ -12,7 +12,6 @@ const lexend = Lexend({ subsets: ['latin-ext'] });
 export default function ContactPage() {
 	return (
 		<>
-			<HeaderPart />
 
 			{/* SET UP Styles AND Font */}
   		<main className={`${styles.main} ${lexend.className}`}>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/Link';
 
 export default function SplashPage() {
   return (
@@ -176,11 +177,11 @@ export default function SplashPage() {
                   <span>@tbc</span>
                 </div>
               </a>
-              <a href="mailto:tbc" className="contact-item">
+              <Link href="/contact-page" className="contact-item">
                 <span className="item-icon">✉️</span>
                 <div>
-                  <label>Email</label>
-                  <span>tbc</span>
+                  <label>Contact</label>
+                  <span>Contact</span>
                 </div>
               </a>
             </div>

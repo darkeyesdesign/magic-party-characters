@@ -12,16 +12,12 @@ export default function SocialIcons() {
 				/>
 			</a>
 */}
-			<a href="#">
+{/*			<a href="#">
 				<img src="/assets/socials/youtube-logo.png"
 				className={[styles.social_logos, styles.youtube].join(" ")}
 				/>
 			</a>
-			<a href="#">
-				<img src="/assets/socials/imdb-logo.png"
-				className={[styles.social_logos, styles.imdb].join(" ")}
-				/>
-			</a>
+*/}
 			<a href="#">
 				<img src="/assets/socials/instagram.png"
 				className={[styles.social_logos, styles.ig].join(" ")}
