@@ -23,22 +23,17 @@ export default function ContactPage() {
 				</div>
 				<hr />
 
-			{/* NAVIGATION */}
-				<div className={styles.navigation}>
-		  		<Navigation />
-				</div>
-
-			{/* SOCIALS */}
-				<div className={styles.socials_container}>
-					<SocialIcons />
-				</div>
-
 			{/* CONTACT FORM */}
 				<ContactForm />
 
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>
 					<Navigation />
+				</div>
+
+			{/* SOCIALS */}
+				<div className={styles.socials_container}>
+					<SocialIcons />
 				</div>
 
 			</main>
