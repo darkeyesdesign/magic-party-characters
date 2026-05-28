@@ -39,10 +39,10 @@ export default function ContactPage() {
 				</div>
 
 			{/* SOCIALS */}
-				<div className={styles.socials_container}>
+{/*				<div className={styles.socials_container}>
 					<SocialIcons />
 				</div>
-
+*/}
       </section>
 
  {/*       </div> */}
