@@ -56,6 +56,12 @@
 @media (max-width: 640px) {
   .section-title { font-size: 1.75rem; margin-bottom: 2rem; }
 }
+/* gives some breathing room on small screens */
+@media (max-width: 640px) {
+  .content-wrapper {
+    padding: 0 16px;
+  }
+}
 
 /* --- 1. HERO SECTION --- */
 .hero-section {
@@ -592,7 +598,7 @@
 html {
   scroll-behavior: smooth;
 }
-# Fixes Heights for iPhone
+/* Fixes Heights for iPhone */
 @media (max-width: 640px) {
   .hero-headline {
     font-size: 2.5rem;
@@ -602,7 +608,7 @@ html {
     font-size: 2.25rem;
   }
 }
-# Fix mobile padding
+/* Fix mobile padding */
 @media (max-width: 640px) {
   .hero-section,
   .features-section,
@@ -612,11 +618,40 @@ html {
     padding: 4rem 0;
   }
 }
-# global iphone-safe reset
+
+/* global iphone-safe reset */
 html, body {
   overflow-x: hidden;
   width: 100%;
 }
-* {
-  min-width: 0;
+
+@media (max-width: 640px) {
+  .hero-headline {
+    font-size: 2.5rem;
+  }
+
+  .cta-headline {
+    font-size: 2.25rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-subheadline {
+    font-size: 1.1rem;
+  }
+
+  .intro-section p {
+    font-size: 1.1rem;
+  }
 }
+
+
+/* * {
+  min-width: 0;
+} */
