@@ -17,6 +17,7 @@
   --max-width-narrow: 720px;
 }
 
+/* GLOBAL FIXES (SAFE) */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -68,7 +69,7 @@ html, body {
   margin-bottom: 3rem;
 }
 
-/* --- HERO --- */
+/* --- HERO SECTION --- */
 .hero-section {
   position: relative;
   overflow: hidden;
@@ -158,16 +159,6 @@ html, body {
   text-decoration: none;
 }
 
-.btn-primary {
-  background-color: var(--color-accent);
-  color: #4c1d95;
-}
-
-.btn-secondary {
-  background-color: #ffffff;
-  color: var(--color-primary);
-}
-
 /* --- INTRO --- */
 .intro-section {
   padding: 5rem 0;
@@ -204,7 +195,7 @@ html, body {
   }
 }
 
-/* --- CARDS SAFE BASE --- */
+/* CARD SAFETY */
 .feature-card,
 .character-card,
 .why-card,
@@ -329,15 +320,17 @@ html, body {
   margin: 0 auto;
 }
 
-/* --- MOBILE TYPOGRAPHY SYSTEM --- */
+/* --- MOBILE TYPOGRAPHY FIX (SAFE + CLEAN) --- */
 @media (max-width: 640px) {
+
   .hero-headline {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     line-height: 1.1;
   }
 
   .cta-headline {
     font-size: 2.2rem;
+    line-height: 1.15;
   }
 
   .section-title {
@@ -349,11 +342,11 @@ html, body {
   }
 
   .hero-subheadline {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
 
   .intro-section p {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
 
   .feature-text,
@@ -363,6 +356,14 @@ html, body {
   }
 
   .service-badge {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-section,
+  .features-section,
+  .offerings-section,
+  .why-us-section,
+  .steps-section {
+    padding: 4rem 0;
   }
 }
