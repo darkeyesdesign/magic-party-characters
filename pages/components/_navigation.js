@@ -7,12 +7,12 @@ export default function Navigation() {
 			<div className={styles.navigation_items}>
 				<ul>
 	  			<li>
-						<a href="/">HOME</a>
+						<a href="/magic-party-characters/">HOME</a>
 						</li>
-          <li>
-	  				<a href="/_contact-page">CONTACT</a>
+{/*          <li>
+	  				<a href="/magic-party-characters/_contact-page">CONTACT</a>
 						</li>
-{/*					<li>					
+					<li>					
 						<a href="/_about-page">ABOUT</a>
 						</li>
 */}
