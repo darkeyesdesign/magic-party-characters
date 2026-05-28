@@ -183,7 +183,7 @@ export default function SplashPage() {
                   <label>Contact</label>
                   <span>Contact</span>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
