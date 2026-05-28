@@ -181,20 +181,18 @@ export default function Home() {
                 <span className="item-icon">📞</span>
                 <div>
                   <label>Call / Text</label>
-                  <span>tbc</span>
+                  <span>818-555-5555</span>
                 </div>
               </a>
               <a href="https://instagram.com/tbc" target="_blank" rel="noopener noreferrer" className="contact-item">
                 <span className="item-icon">📸</span>
                 <div>
-                  <label>Instagram</label>
                   <span>@tbc</span>
                 </div>
               </a>
               <Link href="/_contact-page" className="contact-item">
                 <span className="item-icon">✉️</span>
                 <div>
-                  <label>Email</label>
                   <span>Contact Form</span>
                 </div>
               </Link>
