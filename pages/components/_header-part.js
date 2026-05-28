@@ -1,4 +1,4 @@
-import link from 'next/link'
+import Link from 'next/link'
 
 import Head from 'next/head'
 import { Advent_Pro, Inter, Lexend } from 'next/font/google'
