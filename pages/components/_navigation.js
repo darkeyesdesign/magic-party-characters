@@ -12,9 +12,10 @@ export default function Navigation() {
           <li>
 	  				<a href="/_contact-page">CONTACT</a>
 						</li>
-					<li>					
+{/*					<li>					
 						<a href="/_about-page">ABOUT</a>
 						</li>
+*/}
 				</ul>
 			</div>
 		</>

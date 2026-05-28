@@ -14,18 +14,25 @@ export default function ContactPage() {
 		<>
 
 			{/* SET UP Styles AND Font */}
-  		<main className={`${styles.main} ${lexend.className}`}>
+*   		<main className={`${styles.main} ${lexend.className}`}> 
+      
+{/*      <div className="splash-container"> */}
 
+      <section className="hero-section">
 			{/*	PAGE TITLE */}
 				<div className={styles.title}>
 					<h1>Contact</h1>
           <h4>Magic Party Characters</h4>
 				</div>
 				<hr />
+      </section>
 
+      <section className="intro-section">
 			{/* CONTACT FORM */}
 				<ContactForm />
-
+      </section>
+  
+      <section className="features-section">    
 			{/* FOOTER LINKS */}
 				<div className={styles.navigation}>
 					<Navigation />
@@ -36,7 +43,10 @@ export default function ContactPage() {
 					<SocialIcons />
 				</div>
 
-			</main>
+      </section>
+
+ {/*       </div> */}
+			</main> 
 		</>
 	);
 }
