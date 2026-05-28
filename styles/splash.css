@@ -243,6 +243,14 @@
   border: 1px solid #f1f5f9;
 }
 
+.feature-card,
+.character-card,
+.why-card,
+.step-card {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .feature-icon {
   font-size: 1.5rem;
   margin-right: 1rem;
@@ -252,6 +260,14 @@
   font-weight: 700;
   font-size: 1.125rem;
   color: #334155;
+}
+
+.feature-text,
+.character-card h4,
+.why-card p,
+.step-card h3 {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .alert-banner {
@@ -331,6 +347,7 @@
 .why-us-grid,
 .steps-grid {
   width: 100%;
+  min-width: 0px;
 }
 
 .character-card {
