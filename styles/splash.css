@@ -575,11 +575,6 @@
 html {
   scroll-behavior: smooth;
 }
-# global iphone-safe reset
-html, body {
-  overflow-x: hidden;
-  width: 100%;
-}
 # Fixes Heights for iPhone
 @media (max-width: 640px) {
   .hero-headline {
@@ -599,4 +594,12 @@ html, body {
   .steps-section {
     padding: 4rem 0;
   }
+}
+# global iphone-safe reset
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+* {
+  min-width: 0;
 }
