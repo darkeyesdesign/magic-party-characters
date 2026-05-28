@@ -65,6 +65,8 @@
   color: #ffffff;
   padding: 6rem 24px;
   min-height: 80vh;
+  min-height: 80svh;
+  min-height: 80dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -217,7 +219,7 @@
 
 /* --- 3. WHAT YOU GET --- */
 .features-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
   background-color: var(--color-bg-light);
 }
 
@@ -270,7 +272,7 @@
 
 /* --- 4. SERVICES & 5. CHARACTERS --- */
 .offerings-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 .services-block {
@@ -323,6 +325,14 @@
 
 @media (min-width: 768px) { .characters-grid { grid-template-columns: repeat(4, 1fr); } }
 
+# Fixes grid behaviour
+.features-grid,
+.characters-grid,
+.why-us-grid,
+.steps-grid {
+  width: 100%;
+}
+
 .character-card {
   background-color: var(--color-bg-light);
   padding: 2rem 1rem;
@@ -353,7 +363,7 @@
 
 /* --- 6. WHY PARENTS CHOOSE US --- */
 .why-us-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
   background-color: var(--color-bg-light);
 }
 
@@ -404,7 +414,7 @@
 
 /* --- 7. HOW IT WORKS --- */
 .steps-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
   text-align: center;
 }
 
@@ -564,4 +574,29 @@
 
 html {
   scroll-behavior: smooth;
+}
+# global iphone-safe reset
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+# Fixes Heights for iPhone
+@media (max-width: 640px) {
+  .hero-headline {
+    font-size: 2.5rem;
+  }
+
+  .cta-headline {
+    font-size: 2.25rem;
+  }
+}
+# Fix mobile padding
+@media (max-width: 640px) {
+  .hero-section,
+  .features-section,
+  .offerings-section,
+  .why-us-section,
+  .steps-section {
+    padding: 4rem 0;
+  }
 }
